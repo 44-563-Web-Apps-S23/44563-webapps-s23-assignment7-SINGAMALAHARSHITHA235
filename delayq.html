@@ -26,27 +26,29 @@
 
 <body>
     <h1>Harshitha Singamala builds a delaying queue</h1>
+    
+
+
+
+
     <div class="flex-container" id="target">
-      <div class = "delayQ">row item 1</div>   
-      <div class = "delayQ">row item 2</div>  
-      <div class = "delayQ">row item 3</div>  
+      <div class="delayQ">row item 1</div>   
+      <div class="delayQ">row item 2</div>  
+      <div class="delayQ">row item 3</div>  
     </div>
 
- <label for="input">Enter Here: </label>
-    <input type = "text" id = "input">
-<p> Press the button mf and create a new element of type div and then add it to the container.
+<p> Press the button to create an new element of type div and then add it to the container.
     </p>
+    <div class="form-group">
+        <input type="text" class="form-control" id="inputElement">
+    </div><br>
     <button class = "btn" onclick="makeNewDiv()">Add Value</button>
 	    <input class="btn" type="button" value="Get" onclick="get()">
       <input class="btn" type="button" value="Delay" onclick="delay()">
       <input class="btn" type="button" value="Promote" onclick="promote()">
-      
-      
-	    
 
-
-
-
+    
+</body>
 <script>
 function makeNewDiv(){
     /* make the div and its text */
